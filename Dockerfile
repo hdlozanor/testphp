@@ -1,3 +1,4 @@
 FROM public.ecr.aws/nginx/nginx:mainline
 EXPOSE 80
-COPY src/index.php /var/www/my-vol
+COPY src/index.php /usr/share/nginx/html
+CMD 
